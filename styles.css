@@ -1,8 +1,8 @@
 /* General Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background: #f4f4f9;
-    margin: 0;
+    background-color: #A9C9FF;
+    background-image:%20linear-gradient(180deg,%20#A9C9FF%200%,%20#ffffff%2050%,%20#fffbbb%20100%); margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -10,6 +10,11 @@ body {
     min-height: 100vh;
     color: #333;
 }
+
+.dark-mode {
+      background-color: black;
+      color: white;
+    }
 
 /* Container Styling */
 .container {
